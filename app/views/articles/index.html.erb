@@ -1,0 +1,9 @@
+<h1>All articles</h1>
+<hr>
+<%= link_to "Create article", new_article_path(@article), :class => 'btn btn-primary' %>
+<% @articles.each do |article| %>
+    <div class="card card-body bg-light">
+      <h4> <%= article.title %></h4>
+      <%= link_to "View article", article_path(article), :class => 'btn btn-default'%>
+    </div>
+<% end %>
