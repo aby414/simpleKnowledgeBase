@@ -26,8 +26,8 @@ Set the enviroment variable `TRANSLATOR_TEXT_SUBSCRIPTION_KEY` with your Microso
 
 
 
-## Information
+## Requirements
 
-* Ruby version: 2.6.3
+* Ruby version: 2.5.5
 
-* Rails version: 6.0.0
+* Rails version: 5.2.3
